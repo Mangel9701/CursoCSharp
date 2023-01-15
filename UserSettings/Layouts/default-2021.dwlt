@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 36
+  controlID: 63
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 1
-  controlID: 37
+  controlID: 64
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 8096}
   vertical: 0
-  controlID: 38
+  controlID: 65
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -388,8 +388,9 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
+  m_ObjectsLockedBeforeSerialization:
+  - {fileID: 0}
+  m_InstanceIDsLockedBeforeSerialization: 22dbfeff
   m_PreviewResizer:
     m_CachedPref: 151
     m_ControlHash: 1412526313
@@ -399,7 +400,7 @@ MonoBehaviour:
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
-    m_IsLocked: 0
+    m_IsLocked: 1
   m_PreviewWindow: {fileID: 0}
 --- !u!114 &15
 MonoBehaviour:
@@ -443,22 +444,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/curso/POO
+    - Assets/curso
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/curso/POO
+  - Assets/curso
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Documentos\Curso C#
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a6680000
-    m_LastClickedID: 26790
-    m_ExpandedIDs: 000000006c6800007a68000000ca9a3bffffff7f
+    m_SelectedIDs: 3a680000
+    m_LastClickedID: 26682
+    m_ExpandedIDs: 000000003468000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -486,7 +487,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006c680000
+    m_ExpandedIDs: 0000000034680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -574,8 +575,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
+      m_SelectedIDs: 22dbfeff
+      m_LastClickedID: -74974
       m_ExpandedIDs: 30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -826,9 +827,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.07483742, y: 0.20082438, z: 0.79533315}
+    m_Target: {x: 1.0413848, y: 0.19367945, z: 0.7346475}
     speed: 2
-    m_Value: {x: -0.07483742, y: 0.20082438, z: 0.79533315}
+    m_Value: {x: 1.0413848, y: 0.19367945, z: 0.7346475}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -877,11 +878,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.30287975, y: -0.023729837, z: 0.0075437184, w: -0.9527095}
     speed: 2
-    m_Value: {x: -0.30287975, y: -0.023729835, z: 0.0075437184, w: -0.95270944}
+    m_Value: {x: -0.30287802, y: -0.0237297, z: 0.007543675, w: -0.9527041}
   m_Size:
-    m_Target: 4.3417144
+    m_Target: 2.3861904
     speed: 2
-    m_Value: 4.3417144
+    m_Value: 2.3861904
   m_Ortho:
     m_Target: 0
     speed: 2
